@@ -12,21 +12,17 @@
          url('/Users/Utilitaires/Desktop/MIMproject/police/Athum.otf') format('otf');    
 }
 
-#tete
+
+
+#logoname
 {
-	display: flex;
-	flex-direction: row;
-	f
+    display: flex;
+    justify-content: center;
 }
 
-.element1:nth-child(1)
+#menu
 {
-	flex: 1;
-}
-
-.element2:nth-child(2)
-{
-	flex: 2;
+    background: url("/Users/Utilitaires/Desktop/MIMproject/images/marbre.jpg");
 }
 
 h1
