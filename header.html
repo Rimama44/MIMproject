@@ -2,9 +2,12 @@
 <html>
 <head>
 	<meta name="viewport" countent="width=device-width, initial-scale=1">
-		<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css">
-		<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"></script>
+		
 		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+        <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css">
+		<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"></script>
 	
 		<link rel="stylesheet" type="text/css" href="/Users/Utilitaires/Desktop/MIMproject/css/header.css">
 		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
@@ -12,6 +15,9 @@
 </head>
 
 <body>
+
+<!--Titre & futur logo-->
+
 	<section class="container" id="logoname">
 		<header>
 
@@ -20,16 +26,43 @@
 		</header>
 	</section>
 
+<!--Menu-->
+
 	<section id="menu">
 
-		<nav class="navbar">
-  		<a class="navbar-brand">Présentation</a>
-  		<form class="form-inline">
+	<nav class="nav">
+    <div class="navbar">
+			
+			<!--menu deroulant-->
+			
+			<a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">L'entreprise</a>
+		    <div class="dropdown-menu">
+		      <a class="dropdown-item" href="#">Personnel</a>
+		      <a class="dropdown-item" href="#">Another action</a>
+		      <a class="dropdown-item" href="#">Something else here</a>
+		      <div class="dropdown-divider"></div>
+		      <a class="dropdown-item" href="#">Separated link</a>
+            </div>
+
+		      <!--Reste du menu-->
+
+			  <a class="nav-link active" href="#">Présentation</a>
+			  <a class="nav-link" href="#">Offres</a>
+			  <a class="nav-link" href="#"></a>
+			  <a class="nav-link" href="#">Disabled</a>	
+	</div>
+    	
+        <form class="form-inline">
+            
+    <div class="recherche">
+
     	<input class="form-control mr-sm-2" type="search" placeholder="Rechercher" aria-label="Search">
     	<button class="btn" type="submit"><i class="fa fa-search"></i></button>
+        
+    </div>
 
-  </form>
-</nav>
+	  </form>
+	</nav>
 		
 	</section>
 </body>

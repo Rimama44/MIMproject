@@ -12,7 +12,16 @@
          url('/Users/Utilitaires/Desktop/MIMproject/police/Athum.otf') format('otf');    
 }
 
+a:hover
+{
+    color: darkgoldenrod;
+}
 
+a
+{
+    color: #985F2B;
+    font-weight: bold;
+}
 
 #logoname
 {
@@ -23,6 +32,8 @@
 #menu
 {
     background: url("/Users/Utilitaires/Desktop/MIMproject/images/marbre.jpg");
+    display: flex;
+    justify-content: space-between;
 }
 
 h1
